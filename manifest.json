@@ -1,0 +1,24 @@
+{
+  "name": "Simple Tab Manager",
+  "description": "Lightweigt tool to import/export URLs from opened tabs to the clipboard or open tabs from a list of URLs",
+  "manifest_version": 2,
+  "version": "0.5",
+  "permissions": [
+    "tabs",
+    "clipboardRead",
+    "clipboardWrite",
+    "downloads"
+  ],
+  "icons": {
+    "128": "icons/128.png",
+    "256": "icons/256.png",
+    "512": "icons/512.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "512": "icons/512.png"
+    },
+    "default_title": "Simple Tab Manager",
+    "default_popup": "popup.html"
+  }
+}
